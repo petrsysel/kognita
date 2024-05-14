@@ -1,0 +1,176 @@
+{
+    "background": "chodba-knihovna.png",
+    "width": 11,
+    "objects": [
+        {
+            "name": "carodej",
+            "skin": "kouzelnik.png",
+            "x": 5,
+            "y":3,
+            "direction": 0,
+            "visible": true
+        },
+        {
+            "name": "dvere-k",
+            "skin": "dvere.png",
+            "x": 3,
+            "y":0,
+            "direction": 0,
+            "visible": true
+        },
+        {
+            "name": "dvere-s",
+            "skin": "dvere.png",
+            "x": 10,
+            "y":2,
+            "direction": 3,
+            "visible": true
+        }
+    ],
+    "animations":[
+        {
+            "id": 0,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 5,
+                    "y": 3,
+                    "direction": 0
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":3,
+                    "duration": 1000
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y": 0,
+                    "duration": 1500
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 5,
+                    "y": 3,
+                    "direction": 0
+                },
+                {
+                    "y":2,
+                    "duration": 1000
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "x": 10,
+                    "duration": 2500
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 3,
+                    "y": 1,
+                    "direction": 2
+                },
+                {
+                    "y":3,
+                    "duration": 1000
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "y": 5,
+                    "duration": 1000
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y": 4,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 3,
+                    "y": 1,
+                    "direction": 2
+                },
+                {
+                    "y":2,
+                    "duration": 500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x": 10,
+                    "duration": 1000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 5,
+                    "y": 3,
+                    "direction": 0
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "y": 4,
+                    "duration": 500
+                }
+            ]
+        }
+    ],
+    "solutions":[
+        {
+            "x":5,
+            "y":3,
+            "image": "zpet.png",
+            "animation": 4
+        }
+    ],
+    "transitions":[
+        {
+            "x": 5,
+            "y": 4,
+            "target": "nadvori",
+            "tx":5,
+            "ty":1
+        }
+    ]
+}

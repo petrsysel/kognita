@@ -1,0 +1,1293 @@
+{
+    "background": "nadvori.png",
+    "width": 11,
+    "objects": [
+        {
+            "name": "carodej",
+            "skin": "kouzelnik.png",
+            "x": 0,
+            "y":5,
+            "direction": 1,
+            "visible": true
+        }
+    ],
+    "animations":[
+        {
+            "id": 0,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 5,
+                    "direction": 1
+                },
+                {
+                    "x":2,
+                    "duration": 1000
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 2,
+                    "y": 5,
+                    "visible": true,
+                    "direction": 1
+                },
+                {
+                    "x":3,
+                    "duration": 500
+                }
+            ],
+            "after":[
+                {
+                    "sound": "voda.mp3"
+                },
+                {
+                    "additem": "voda"
+                },
+                {
+                    "animation": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "object": "carodej",
+            "frames": [
+                {
+                    "x": 3,
+                    "y": 5,
+                    "visible": true,
+                    "direction": 1
+                },
+                {
+                    "turn": -1,
+                    "duration": 500
+                },
+                {
+                    "turn": -1,
+                    "duration": 500
+                },
+                {
+                    "x":2,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":2,
+                    "y":5,
+                    "direction":1
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 7,
+                    "duration":1000
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x": 7,
+                    "duration":2500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y": 2,
+                    "duration": 2500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x": 6,
+                    "duration": 500
+                }
+            ],
+            "after":[
+                {
+                    "sound": "stopy.mp3"
+                },
+                {
+                    "animation": 4
+                }
+            ]
+        },
+        {
+            "id":4,
+            "object":"carodej",
+            "frames":[
+                {
+                    "x":6,
+                    "y":2,
+                    "direction":3
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y":1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x": 5,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":2,
+                    "y":5,
+                    "direction":1
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 7,
+                    "duration":1000
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x": 7,
+                    "duration":2500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y": 2,
+                    "duration": 2500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "x": 8,
+                    "duration": 500
+                }
+            ],
+            "after":[
+                {
+                    "sound": "byliny.mp3"
+                },
+                {
+                    "additem": "byliny"
+                },
+                {
+                    "animation": 6
+                }
+            ]
+        },
+        {
+            "id":6,
+            "object":"carodej",
+            "frames":[
+                {
+                    "x":8,
+                    "y":2,
+                    "direction":1
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y":5,
+                    "duration":1500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x": 9,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":2,
+                    "y":5,
+                    "direction":1
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 7,
+                    "duration":1000
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x": 7,
+                    "duration":2500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y": 2,
+                    "duration": 2500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x": 5,
+                    "duration": 1000
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y": 0,
+                    "duration": 1000
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":2,
+                    "y":5,
+                    "direction":1
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 7,
+                    "duration":1000
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x": 7,
+                    "duration":2500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y": 5,
+                    "duration": 1000
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "x": 10,
+                    "duration": 1500
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":2,
+                    "y":5,
+                    "direction":1
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 7,
+                    "duration":1000
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x": 5,
+                    "duration":1500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 10,
+                    "duration": 1500
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":9,
+                    "direction":0
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 10,
+                    "duration":1000
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":9,
+                    "direction":0
+                },
+                {
+                    "y": 7,
+                    "duration":1000
+                }
+            ],
+            "after":[
+                {
+                    "sound":"voda.mp3"
+                },
+                {
+                    "additem": "voda"
+                },
+                {
+                    "animation": 12
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":7,
+                    "direction":0
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 9,
+                    "duration":1000
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":9,
+                    "direction":0
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "x": 9,
+                    "duration":2000
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y":5,
+                    "duration":2000
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "x":10,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":9,
+                    "direction":0
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "x": 8,
+                    "duration":1500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y":2,
+                    "duration":3500
+                }
+            ],
+            "after":[
+                {
+                    "sound":"byliny.mp3"
+                },
+                {
+                    "additem": "byliny"
+                },
+                {
+                    "animation": 6
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":9,
+                    "direction":0
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "x": 8,
+                    "duration":1500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y":2,
+                    "duration":3500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x":6,
+                    "duration":1000
+                }
+            ],
+            "after":[
+                {
+                    "sound":"stopy.mp3"
+                },
+                {
+                    "animation":4
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":9,
+                    "direction":0
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "x": 8,
+                    "duration":1500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y":2,
+                    "duration":3500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "x":5,
+                    "duration":1500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 0,
+                    "duration":1000
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":9,
+                    "y":5,
+                    "direction":3
+                },
+                {
+                    "x":8,
+                    "duration":500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 2,
+                    "duration":1500
+                }
+            ],
+            "after":[
+                {
+                    "sound":"byliny.mp3"
+                },
+                {
+                    "additem": "byliny"
+                },
+                {
+                    "animation":6
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":9,
+                    "y":5,
+                    "direction":3
+                },
+                {
+                    "x":8,
+                    "duration":500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 2,
+                    "duration":1500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":6,
+                    "duration":1000
+                }
+
+            ],
+            "after":[
+                {
+                    "sound": "stopy.mp3"
+                },
+                {
+                    "animation": 4
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":9,
+                    "y":5,
+                    "direction":3
+                },
+                {
+                    "x":8,
+                    "duration":500
+                },
+                {
+                    "turn": 1,
+                    "duration":500
+                },
+                {
+                    "y": 2,
+                    "duration":1500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":5,
+                    "duration":1500
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y":0,
+                    "duration":1000
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":9,
+                    "y":5,
+                    "direction":3
+                },
+                {
+                    "x":8,
+                    "duration":500
+                },
+                {
+                    "turn": -1,
+                    "duration":500
+                },
+                {
+                    "y": 8,
+                    "duration":1500
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "x":5,
+                    "duration":1500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "y":10,
+                    "duration":1000
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":9,
+                    "y":5,
+                    "direction":3
+                },
+                {
+                    "x":7,
+                    "duration":1000
+                }
+            ],
+            "after":[
+                {
+                    "sound":"voda.mp3"
+                },
+                {
+                    "additem": "voda"
+                },
+                {
+                    "animation": 22
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":7,
+                    "y":5,
+                    "direction":3
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":9,
+                    "duration":1000
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":9,
+                    "y":5,
+                    "direction":3
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":10,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":1,
+                    "direction":2
+                },
+                {
+                    "y":3,
+                    "duration":1000
+                }
+            ],
+            "after":[
+                {
+                    "sound":"voda.mp3"
+                },
+                {
+                    "additem": "voda"
+                },
+                {
+                    "animation": 25
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":3,
+                    "direction":2
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "y":1,
+                    "duration":1000
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":1,
+                    "direction":2
+                },
+                {
+                    "y":2,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":8,
+                    "duration":1500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                }
+            ],
+            "after":[
+                {
+                    "sound":"byliny.mp3"
+                },
+                {
+                    "additem": "byliny"
+                },
+                {
+                    "animation":6
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":1,
+                    "direction":2
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "y":0,
+                    "duration":1000
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":1,
+                    "direction":2
+                },
+                {
+                    "y":2,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":8,
+                    "duration":1500
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y":5,
+                    "duration":1500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":10,
+                    "duration":1000
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "object": "carodej",
+            "frames":[
+                {
+                    "x":5,
+                    "y":1,
+                    "direction":2
+                },
+                {
+                    "y":2,
+                    "duration":500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "x":8,
+                    "duration":1500
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "y":9,
+                    "duration":3500
+                },
+                {
+                    "turn":1,
+                    "duration":500
+                },
+                {
+                    "x":5,
+                    "duration":1500
+                },
+                {
+                    "turn":-1,
+                    "duration":500
+                },
+                {
+                    "y":10,
+                    "duration":500
+                }
+            ]
+        }
+    ],
+    "solutions":[
+        {
+            "x":2,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "voda1.png",
+            "animation": 1
+        },
+        {
+            "x":2,
+            "y":5,
+            "condition": [
+                "stopy"
+            ],
+            "image": "brana-stopy.png",
+            "animation": 3
+        },
+        {
+            "x":2,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "brana-zahon.png",
+            "animation": 5
+        },
+        {
+            "x":2,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "brana-knihovna.png",
+            "animation": 7
+        },
+        {
+            "x":2,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "brana-sin.png",
+            "animation": 8
+        },
+        {
+            "x":2,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "brana-vez.png",
+            "animation": 9
+        },
+        {
+            "x":5,
+            "y":9,
+            "condition": [
+                
+            ],
+            "image": "zpet.png",
+            "animation": 10
+        },
+        {
+            "x":5,
+            "y":9,
+            "condition": [
+                
+            ],
+            "image": "voda2.png",
+            "animation": 11
+        },
+        {
+            "x":5,
+            "y":9,
+            "condition": [
+                
+            ],
+            "image": "vez-sin.png",
+            "animation": 13
+        },
+        {
+            "x":5,
+            "y":9,
+            "condition": [
+                
+            ],
+            "image": "vez-zahon.png",
+            "animation": 14
+        },
+        {
+            "x":5,
+            "y":9,
+            "condition": [
+                "stopy"
+            ],
+            "image": "vez-stopy.png",
+            "animation": 15
+        },
+        {
+            "x":5,
+            "y":9,
+            "condition": [
+                
+            ],
+            "image": "vez-knihovna.png",
+            "animation": 16
+        },
+        {
+            "x":9,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "sin-zahon.png",
+            "animation": 17
+        },
+        {
+            "x":9,
+            "y":5,
+            "condition": [
+                "stopy"
+            ],
+            "image": "sin-stopy.png",
+            "animation": 18
+        },
+        {
+            "x":9,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "sin-knihovna.png",
+            "animation": 19
+        },
+        {
+            "x":9,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "sin-vez.png",
+            "animation": 20
+        },
+        {
+            "x":9,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "voda2.png",
+            "animation": 21
+        },
+        {
+            "x":9,
+            "y":5,
+            "condition": [
+                
+            ],
+            "image": "zpet.png",
+            "animation": 23
+        },
+        {
+            "x":5,
+            "y":1,
+            "condition": [
+                
+            ],
+            "image": "voda2.png",
+            "animation": 24
+        },
+        {
+            "x":5,
+            "y":1,
+            "condition": [
+                
+            ],
+            "image": "knihovna-zahon.png",
+            "animation": 26
+        },
+        {
+            "x":5,
+            "y":1,
+            "condition": [
+                
+            ],
+            "image": "zpet.png",
+            "animation": 27
+        },
+        {
+            "x":5,
+            "y":1,
+            "condition": [
+                
+            ],
+            "image": "knihovna-sin.png",
+            "animation": 28
+        },
+        {
+            "x":5,
+            "y":1,
+            "condition": [
+                
+            ],
+            "image": "knihovna-vez.png",
+            "animation": 29
+        }
+    ],
+    "transitions": [
+        {
+            "x": 5,
+            "y": 0,
+            "target": "chodba-knihovna",
+            "tx":5,
+            "ty":3
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "target": "chodba-vez"
+        },
+        {
+            "x": 10,
+            "y": 5,
+            "target": "sin"
+        }
+    ]
+}

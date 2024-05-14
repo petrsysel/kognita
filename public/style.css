@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Kanit:wght@100&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+}
+#game{
+    display: flex;
+    height: 100vh;
+}
+#solution-select{
+    flex: 0.2;
+    /* width: 20rem; */
+    height: 100%;
+    overflow-y: scroll;
+}
+#solution-select img{
+    cursor: pointer;
+}
+
+#inventory{
+    flex: 0.2;
+    /* width: 20rem; */
+    height: 100%;
+    overflow-y: scroll;
+}
+#inventory img{
+    /* cursor: pointer; */
+    width: 60%;
+    margin: 0.5rem;
+}
+
+#scene{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+#konva-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#code-preview{
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    filter: drop-shadow(0 0 15px black); 
+}
+
+#menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#menu *{
+    text-decoration: none;
+    color: rgb(214, 214, 42);
+    font-family: "Goudy Bookletter 1911", serif;
+    text-shadow: 0 0 15px yellow;
+}
+
+#menu a:hover{
+    color: rgb(255, 255, 222);
+    text-shadow: 0 0 4px yellow;
+}
+
+#title{
+    font-size: 4rem;
+}
+
+.controls *{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.fade-out{
+    transition: opacity 1s;
+    opacity: 0;
+}

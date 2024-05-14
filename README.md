@@ -27,24 +27,6 @@ Po zorientování se v hradu musí hráč vykonat následující činosti:
 ## Grafika
 Grafika hry byla vytvořena autorem projektu za pomoci softwaru [Inkscape](https://inkscape.org/).
 Bylo třeba navrhnout lokace, ve kterých se bude hra odehrávat. Tyto lokace byly seskládány z jednotlivých assetů. Hra také pracuje s několika předměty, ktré hráč sbírá a interaguje s nimi.
-### Předměty
-Byliny potřebné k uvaření elixíru
-![](./public/assets/byliny.png)
-
-Voda potřebná k uvaření elixíru
-![](./public/assets/voda.png)
-
-Magický krystal potřebný k uvaření elixíru
-![](./public/assets/krystal.png)
-
-Klíč k odemčení knihovny
-![](./public/assets/klic.png)
-
-Svitek se zaklínadlem pro dokončení Kognity
-![](./public/assets/svitek.png)
-
-Magický elixír pro doplnění many
-![](./public/assets/elixir.png)
 
 ### Lokace
 
@@ -196,12 +178,15 @@ Pomocí výše navrženého enginu byla vytvořena demo verze hry Kognita dostup
 
 ### Nevýhody enginu
 Hlavní nevýhodou je způsob definování animací hry. JSON soubor, který k tomuto účelu slouží se již po první scéně stává příliš dlouhým a nepřehledným.
+
 ![](./grapgics_raw/definicni_soubor.png)
+
 Tento problém by byl řešitelný přidáním editoru, který by umožňoval uživatelsky přívětivější prostředí k tvorvě animací. Například klikáním na políčka, po kterých se má objekt pohybovat.
 Dalším problém je zdlouhavost tvorby scén. Tento problém se pojí se samotným principem fungování hry. Pro každou pozici hráče je třeba definovat pohyb ke zbývajícím možným pozicím na scéně (většinou je to n*(n-1) animací + doplňující animace).
 Tyto nevýhody zapříčinily to, že nebyla hra dokončena. **Dokončení hry by vyžadovalo příliš mnoho času**.
 
 ### Budoucnost projektu
+
 I přes to, že závěr projektu zní, že je tvorba interaktivních her v tomto enginu příliš časově náročná, je v plánu tuto hru dokončit.
 Řešením problému s enginem je možnost sloučení s aplikací [Codeblockie](https://codeblockie.com), která již obsahuje editor pro definování úloh pro rozvoj algoritmizace a pro práci s objekty.
 Pro to, aby bylo možné tvořit v Codeblockie hry, jako je Kognita, bude třeba přidat některé další funkce, jako například správu inventáře, držení stavu hry napříč scénami (úlohami) a některé další.
